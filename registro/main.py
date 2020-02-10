@@ -4,7 +4,7 @@ import uuid
 
 import cv2
 
-BASE_FOLDER = os.path.dirname(os.path.realpath(__file__))
+BASE_FOLDER = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 VIDEOS_FOLDER = f"{BASE_FOLDER}/videos"
 FRAMES_FOLDER = f"{BASE_FOLDER}/frames"
 ESCAPE_KEY = 27
